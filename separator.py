@@ -10,11 +10,11 @@ def limpar_terminal():
 
 # Função para exibir uma mensagem estilizada com pyfiglet
 def exibir_cabecalho():
-    ascii_art = pyfiglet.figlet_format("Hash", font="3-d")
+    ascii_art = pyfiglet.figlet_format("Hash Script", font="slant")
     print(ascii_art)
-    print("script feito por hash# (se for usar, deixe os créditos)")
+    print("script feito por hash")
     print("um salve pro grupo do duck :D")
-    print("=" * 50)
+    print("=" * 100)
 
 # Função para extrair o DDD e o número de telefone de cada linha da wordlist
 def extrair_ddd_telefones(input_file, output_file):
